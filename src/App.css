@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 2%;
+  /* background-color: #DDFFBB; */
+  /* font-family: 'Creepster', cursive; */
+  background-image: url("https://gateway.pinata.cloud/ipfs/QmNTXWer55pi7x75qcioDHXby7WVeNMk2eaTXS7jP7ALCR?_gl=1*zy8sbh*rs_ga*YWRhM2IxZDgtZWRlNS00YmUwLWFmNDEtZWYxNTgxZWM5OWE5*rs_ga_5RMPXG14TE*MTY4MjUwMzQ1Mi4zLjEuMTY4MjUwMzY4MC42MC4wLjA.");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.headings h1 {
+  font-family: 'Creepster', cursive;
+  color: #D21312;
+  font-size: 50px;
+}
+.headings h2{
+  display: flex;
+ justify-content: flex-end;
+ text-transform: uppercase;
+ color: #F7D060;
+ font-family: 'Creepster', cursive;
+}
+
+button {
+  background-color: #E74646; /* Green */
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* font-family: 'Creepster', cursive; */
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Button hover effect */
+button:hover {
+  background-color: #FA9884;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nfts{
+  display: flex;
+  width:min-content;
+  background-color: #000000;
+  border: 5px solid #000000;
+  border-radius: 5px;
+  /* padding: 5px; */
+  
+}
+
+.nft button {
+  margin: 3px;
+  padding: 5px !important;
+}
+
+.withdraw {
+  /* margin-top: 50px; */
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 87%;
 }
