@@ -1,22 +1,32 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
-body {
+html, body {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2%;
-  /* background-color: #DDFFBB; */
+  background-color: #000000;
   /* font-family: 'Creepster', cursive; */
   background-image: url("https://gateway.pinata.cloud/ipfs/QmNTXWer55pi7x75qcioDHXby7WVeNMk2eaTXS7jP7ALCR?_gl=1*zy8sbh*rs_ga*YWRhM2IxZDgtZWRlNS00YmUwLWFmNDEtZWYxNTgxZWM5OWE5*rs_ga_5RMPXG14TE*MTY4MjUwMzQ1Mi4zLjEuMTY4MjUwMzY4MC42MC4wLjA.");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
 }
 .container {
   display: flex;
 
   flex-direction: column;
+}
+.grow-on-render {
+  transition: transform 0.5s ease;
+  transform: scale(1);
+  margin: 1px;
+}
+
+.grow-on-render:hover {
+  transform: scale(1.1);
 }
 
 .headings h1 {
@@ -68,9 +78,16 @@ button:hover {
 }
 
 .withdraw {
-  /* margin-top: 50px; */
+  top: 0;
   position: fixed;
   display: flex;
   justify-content: flex-end;
   width: 87%;
+}
+.widthNormal {
+  width: auto;
+}
+
+img {
+  border-radius: 4px;
 }
