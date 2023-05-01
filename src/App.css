@@ -23,16 +23,21 @@ html, body {
   transition: transform 0.5s ease;
   transform: scale(1);
   margin: 1px;
+  max-width: fit-content;
 }
 
 .grow-on-render:hover {
   transform: scale(1.1);
 }
 
-.headings h1 {
+.maintitle {
   font-family: 'Creepster', cursive;
   color: #D21312;
   font-size: 50px;
+}
+.headings {
+  display: flex;
+  justify-content: flex-end;
 }
 .headings h2{
   display: flex;
@@ -40,6 +45,7 @@ html, body {
  text-transform: uppercase;
  color: #F7D060;
  font-family: 'Creepster', cursive;
+ margin: 10px;
 }
 
 button {

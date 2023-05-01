@@ -110,11 +110,11 @@ function App() {
     return (
       <div className="container home">
         <br/>
-        <div className="headings">
-        <h1 className='grow-on-render'>NFT MARKET PLACE</h1>
+        <h1 className='grow-on-render maintitle'>NFT MARKET PLACE</h1>
+        <div className="headings">        
         <h2 className='grow-on-render'>by Rishabh</h2>
-        <p>Buy an NFT from our market place</p>
         </div>
+        <p style={{color: "#30E3DF",}}>Buy an NFT from our market place</p>
         {isWalletInstalled? 
         (<button className="connectAccount grow-on-render" onClick={connectWallet}>Connect Wallet</button>) 
         : (<p>Install MetaMask Wallet</p>) }
@@ -126,9 +126,8 @@ function App() {
   return (
     <div className="container">
       <br/>
-      
+      <h1 className='grow-on-render maintitle'>Army of Demons</h1>
       <div className="headings">
-      <h1 className='grow-on-render'>Army of Demons</h1>
       <h2 className='grow-on-render'>Kibutsuji</h2>
       </div>
 
