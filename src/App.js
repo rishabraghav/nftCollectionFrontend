@@ -120,7 +120,7 @@ function App() {
         <p style={{color: "#30E3DF",}}>Buy an NFT from our market place</p>
         {isWalletInstalled? 
         (<button className="connectAccount grow-on-render" onClick={connectWallet}>Connect Wallet</button>) 
-        : (<p style={{color: "#30E3DF",}}>Install MetaMask Wallet<a href='https://metamask.io/'>Metamask.io</a></p>) }
+        : (<p style={{color: "#30E3DF",}}>Install MetaMask Wallet <a href='https://metamask.io/'>Metamask.io</a></p>) }
       </div>
     );
   }
