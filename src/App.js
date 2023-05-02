@@ -40,23 +40,23 @@ function App() {
   const data = [
     {
       url: "https://gateway.pinata.cloud/ipfs/QmenM5Fj4VBojcfJvYAGr8UMx9tHykWD4cDyGxZXa6V2D3/Cartoonify%20%281%29.png",
-      param: 'handleMint("https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/1")',
+      param: "https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/1",
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/QmenM5Fj4VBojcfJvYAGr8UMx9tHykWD4cDyGxZXa6V2D3/Cartoonify%20%282%29.png",
-      param: 'handleMint("https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/2")',
+      param: "https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/2",
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/QmenM5Fj4VBojcfJvYAGr8UMx9tHykWD4cDyGxZXa6V2D3/Cartoonify%20%283%29.png",
-      param: 'handleMint("https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/3")',
+      param: "https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/3",
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/QmenM5Fj4VBojcfJvYAGr8UMx9tHykWD4cDyGxZXa6V2D3/Cartoonify%20%284%29.png",
-      param: 'handleMint("https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/4")',
+      param: "https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/4",
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/QmenM5Fj4VBojcfJvYAGr8UMx9tHykWD4cDyGxZXa6V2D3/Cartoonify.png  ",
-      param: 'handleMint("https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/5")',
+      param: "https://gateway.pinata.cloud/ipfs/QmTrmLSpBFNvowVMBsFmNgCzEbJRnyzb5uoznKoXsVxcCu/5",
     },
 
   ];
@@ -64,23 +64,23 @@ function App() {
   const data2 = [
     {
       url: "https://gateway.pinata.cloud/ipfs/Qmefy1wREWkXcDqLuFpXtmdu1zPrQ2S9oFyJLWwqrpRRco/1.png",
-      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/1')",
+      param: 'https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/1',
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/Qmefy1wREWkXcDqLuFpXtmdu1zPrQ2S9oFyJLWwqrpRRco/2.png",
-      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/2')",
+      param: 'https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/2',
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/Qmefy1wREWkXcDqLuFpXtmdu1zPrQ2S9oFyJLWwqrpRRco/3.png",
-      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/3')",
+      param: 'https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/3',
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/Qmefy1wREWkXcDqLuFpXtmdu1zPrQ2S9oFyJLWwqrpRRco/4.png",
-      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/4')",
+      param: 'https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/4',
     },
     {
       url: "https://gateway.pinata.cloud/ipfs/Qmefy1wREWkXcDqLuFpXtmdu1zPrQ2S9oFyJLWwqrpRRco/5.png",
-      param: "handleMint('https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/5')",
+      param: 'https://gateway.pinata.cloud/ipfs/QmTyKMNxzyuipPpxf2KUZqm24hrYZNTsyh9mCiAmW3Yyoe/5',
     },
   ];
 
@@ -97,6 +97,9 @@ function App() {
     setIsMinting(true);
     try{
       const options = {value: ethers.utils.parseEther("0.01")};
+      if(NFTContract === null) {
+        alert("this is null");
+      }
       const response = await NFTContract.mintNFT(tokenURI, options);
       console.log("Recieved:", response);
     } catch (err) {
@@ -135,9 +138,7 @@ function App() {
       {data.map((item, index) => (
         <div className="imgDiv grow-on-render">
           <img src={item.url} key={index} alt="img" width={250} height={250}/>
-          <button className='grow-on-render widthNormal' isloading={isMinting} onClick={() => {
-            eval(item.param);
-          }} >Mint - 0.01 eth</button>
+          <button className='grow-on-render widthNormal' isloading={isMinting} onClick={() =>{handleMint(item.param)}} >Mint - 0.01 eth</button>
         </div>
       ))}
       </div>
@@ -150,9 +151,7 @@ function App() {
       {data2.map((item, index) => (
         <div className="imgDiv grow-on-render">
           <img src={item.url} key={index} alt="img" width={250} height={250}/>
-          <button className='grow-on-render' isLoading={isMinting} onClick={() => {
-            eval(item.param);
-          }} >Mint - 0.01 eth</button>
+          <button className='grow-on-render' isLoading={isMinting} onClick={() =>{handleMint(item.param)}} >Mint - 0.01 eth</button>
         </div>
       ))}
       </div>
