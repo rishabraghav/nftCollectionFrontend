@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     function initNFTContract() {
-      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const provider = new ethers.providers.JsonRpcProvider("https://restless-neat-choice.ethereum-goerli.discover.quiknode.pro/ff921f8bff1b23217b0f64cb240e830548b3617f/");
       const signer = provider.getSigner();
 
       setNFTContract(new Contract(contractAddress, contractABI.abi, signer));
@@ -120,7 +120,7 @@ function App() {
         <p style={{color: "#30E3DF",}}>Buy an NFT from our market place</p>
         {isWalletInstalled? 
         (<button className="connectAccount grow-on-render" onClick={connectWallet}>Connect Wallet</button>) 
-        : (<p>Install MetaMask Wallet</p>) }
+        : (<p style={{color: "#30E3DF",}}>Install MetaMask Wallet<a href='https://metamask.io/'>Metamask.io</a></p>) }
       </div>
     );
   }
